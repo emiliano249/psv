@@ -12,6 +12,9 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.logo{
+    padding:20px 30px;
+}
 .contenedor{
     width: 90%;
     max-width: 1200px;
@@ -23,7 +26,9 @@ body{
 .header{
     height: 100vh;
     /* 02 */
-    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(img/woman.jpg);
+    background-image: linear-gradient(-60deg, rgb(0, 159, 60) 0%, rgba(244, 208, 63, 0.377) 100%), url(img/woman.jpg);   
+    /* degrade original= background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(img/woman.jpg);*/
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -33,11 +38,11 @@ body{
 .head{
     padding: 0;
     height: 100%;
-    display: flex;
+    /*  display: flex;   lo saque Emiliano*/
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
 
 
@@ -62,7 +67,7 @@ body{
     /* 02 */
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     /* 028 */
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(135deg, #009f3c 0%, #0a5e07 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -91,59 +96,23 @@ body{
 
 .copy{
     font-weight: 300;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 /* Services */
 
 .subtitulo{
-    color: #9f8ad0;
+    color: #000000;
     font-size: 40px;
     text-align: center;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 30px;
 }
 
-.contenedor-servicio{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
-.contenedor-servicio img{
-    width: 40%;
-}
-
-.checklist-servicio{
-    width: 45%;
-}
-
-.service{
-    margin-bottom: 20px;
-}
-
-.n-service{
-    margin-bottom: 7px;
-    color: #9f8ad0;
-}
-
-.number{
-    display: inline-block;
-    /* 02 */
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-    line-height: 30px;
-    text-align: center;
-    border-radius: 50%;
-    margin-right: 5px;
-    width: 30px;
-    height: 30px;
-    color: #fff;
-    font-weight: 700;
-}
 
 .gallery{
-    background: #f2f2f2;
+    background: #adacac;
 }
 
 .contenedor-galeria{
@@ -207,7 +176,7 @@ body{
 }
 
 .cont-expert{
-    width: 30%;
+    width: 45%;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -215,18 +184,38 @@ body{
 .cont-expert img{
     display: block;
     margin: auto;
-    width: 80%;
+    width: 20%;
 }
 
 .n-expert{
     width: 100%;
     display: inline-block;
-    margin-top: 20px;
-    font-weight: 400;
+    margin-top: 5px;
+    font-weight: 700;
 }
 
+.backup{
+    width: 100%;
+    display: inline-block;
+    margin-top: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.linia{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 2px;
+    background: #000000;
+    margin-bottom: 60px;
+    margin-top: 25px;
+}
+
+
 footer{
-    background: #9f8ad0;
+    background: #009F3C;
     padding-bottom: 0.1px;
 }
 
@@ -299,10 +288,6 @@ footer{
         font-size: 40px;
     }
 
-    .contenedor-servicio img{
-        width: 80%;
-        margin-bottom: 40px;
-    }
     
     .checklist-servicio{
         width: 80%;
