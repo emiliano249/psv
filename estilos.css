@@ -340,6 +340,26 @@ footer{
     color:#ff0000;
 }
 
+
+/* ------------------------- */
+/* creado por Emiliano */
+/* ------------------------- */
+
+footer .creado-por {
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: yellow;
+}
+
+footer .creado-por a {color: #fff;}
+footer .creado-por a:hover {text-decoration: underline;}
+
+/* ------------------------- */
+/* Fin creado por Emiliano */
+/* ------------------------- */
+
+
 @media screen and (max-width: 800px){
     .menu-navegacion{
         width: 50vw;
