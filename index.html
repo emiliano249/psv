@@ -18,10 +18,11 @@
     <link rel="icon" type="icon/png" href="https://raw.githubusercontent.com/emiliano249/psv/gh-pages/img/psvIco.png">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
-
-
 </head>
+
+  <!-- cookies https://www.osano.com/cookieconsent/download/ -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
 
 <body>
 
@@ -126,8 +127,12 @@
                     </div>
                     <div class="cont-expert">
                         <img src="img/mobileVentas2.svg" alt="">
-                        <p class="t-expert">Aplicación android (telefonos o tablets) que se utiliza para: ventnder, modificar o eliminar precios, agregar nuevos usuarios y ver reportes sin la necesidad de estar en la caja o punto de venta.</p>
+                        <p class="t-expert">                        
+                            <a href="https://play.google.com/store/apps/details?id=com.supraweb.facturadormovilkotlin" target="_blank"
+                          >Aplicación android</a
+                        > (telefonos o tablets) que se utiliza para: ventnder, modificar o eliminar precios, agregar nuevos usuarios y ver reportes sin la necesidad de estar en la caja o punto de venta.</p>
                     </div>
+
                 </section>
                 
             </section>
@@ -172,7 +177,7 @@
                         <p>Funciona en Windows 10, 8.1, 8, 7, Vista y XP, incluidas las versiones de 32 y 64 bits..</p>
                         
 
-                        <a href="https://drive.google.com/file/d/1mSLF0eSPIaUKFq--0SoX-9GIvAUzbjwN/view?usp=sharing" class="descargar" target="_blank"><button>DESCARGAR PSV</button></a>
+                        <a href="https://drive.google.com/file/d/1HVqSSAqwEjWJa7Fg9ypBCBAB3gy1Qmp1/view?usp=sharing" class="descargar" target="_blank"><button>DESCARGAR PSV</button></a>
                        
                         
                     </div>
@@ -197,6 +202,12 @@
         <div class="line"></div>
         <div class="creado-por">
             <p>
+                Programa desarrollado por
+                <a href="https://seba23571.github.io/seba23571/" target="_blank"
+                  >Sebastian Esteban</a
+                >
+              </p>
+
               Sitio diseñado por
               <a href="https://www.emilianoesteban.cf" target="_blank"
                 >Emiliano Esteban</a
@@ -207,5 +218,26 @@
     <script src="js/menu.js"></script>
     <script src="js/lightbox.js"></script>
 </body>
+
+ <!-- cookies https://www.osano.com/cookieconsent/download/ -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#009f3c"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-right",
+  "content": {
+    "message": "Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web.",
+    "link": "Aprende más"
+  }
+});
+</script>
 
 </html>
